@@ -161,7 +161,7 @@ function setup() {
 
 function getAnswer() {
 
-//  nextQuestion();
+
 	$('.answerchoice').on('click', function() {
 	  console.log('alert', index);
 		index++;
@@ -177,13 +177,13 @@ function getAnswer() {
 
 function answerCorrect() {
 	correct++;
-	alert("Correct!");
+	alert("That's Right!");
 	console.log("correct");
 }
 
 function answerWrong() {
 	wrong++;
-	alert("Incorrect!");
+	alert("Wrong!");
 	console.log("wrong");
 }
 
