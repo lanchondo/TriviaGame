@@ -1,0 +1,45 @@
+body {
+	background-color: #57396a;
+	font-family: 'PT Sans', sans-serif;
+}
+
+button {
+	width: 50%;
+	height: 40px;
+	float: auto;
+	margin: 0 0 0 25%;
+	border-radius: 12px;
+
+}
+
+button.answerchoice {
+	display: none;
+}
+
+button:hover {
+	background-color: #70bfba;
+	color: white;
+
+}
+
+.answers div {
+	margin: 0 auto;
+	float: center;
+
+}
+
+img {
+	height: 200px;
+	text-align: center;
+	margin-left:43%;
+}
+
+h2, h3, .question {
+	text-align: center;
+	color:#fffffd ;
+}
+h1{
+	color:#fffffd;
+	text-align: center;
+}
+
